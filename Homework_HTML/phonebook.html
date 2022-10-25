@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>phonebook</title>
+    <style>
+      table {
+        width: 100%;
+      }
+
+      .mytable,
+      .mytable thead th,
+      .mytable tbody td {
+        border: 1px dashed black;
+        border-collapse: collapse;
+      }
+
+      
+      .mytable thead th,
+      .mytable tbody td {
+        color: rgb(163, 15, 15);
+        padding: 2%;
+        font-size: 4vw;
+      }
+      .td-under {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="mytable">
+      <colgroup>
+        <col span="1" width="70%" />
+        <col span="1" width="30%" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Tel no.</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>TA Tle</td>
+          <td class="td-under">083-4284942</td>
+        </tr>
+        <tr>
+          <td>KFC</td>
+          <td class="td-under">1150</td>
+        </tr>
+        <tr>
+          <td>Pizza Hut</td>
+          <td class="td-under">1112</td>
+        </tr>
+        <tr>
+          <td>Yayoi-ยาโยอิ</td>
+          <td class="td-under">1642</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

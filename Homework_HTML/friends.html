@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>friends</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Mitr";
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background: url(./Image/bg3.jpg) no-repeat;
+        background-size: cover;
+        height: 100%;
+      }
+      .card {
+        font-family: "Mitr", sans-serif;
+        text-align: center;
+        color: #fff;
+      }
+      .Mytable {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadox: 0 0 20px rgba(0,0,0,0.15);
+      }
+      .Mytable thead tr{
+          background-color: rgba(19, 103, 238, 0.773);
+          color: #fff;
+          text-align: center;
+          font-weight: bold;
+      }
+      .Mytable th, .Mytable td {
+        padding: 12px 15px;
+      }
+      .Mytable tbody tr{
+        border-bottom: 1px solid #dddddd ;
+      }
+      .Mytable tbody tr:nth-of-type(even){
+          background-color: #f3f3f3;
+      }
+      .Mytable tbody tr:nth-of-type(odd){
+          color: rgb(255, 254, 254);
+      }
+      .Mytable tbody tr:last-of-type{
+          border-bottom: 5px solid rgba(9, 53, 124, 0.773);
+
+      }
+      .Mytable tbody tr.active-row {
+          font-weight: bold;
+          color: #3300ff;
+       }
+       .article {
+           display: flex;
+           justify-content: center;
+           width: 500px;
+           background-color: rgba(0, 0, 0, 0.212);
+           padding: 30px;
+           text-align: center;
+           margin: auto;
+           border-radius: 10px;
+       }
+       .article-btn {
+           display: flex;
+           justify-content: center;
+       }
+      
+      #img {
+        width: 80%;
+            height: auto;
+            max-width: 400px;
+            margin-bottom: 5px;
+            display: block;
+            margin: auto;
+      }
+
+      .container-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+      }
+
+      .container-btn a {
+        border: none;
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background-color: coral;
+            padding: 15px 35px;
+            margin: 0 15px;
+            font-size: x-large;
+            border-radius: 10px;
+            font-family: 'Roboto', sans-serif;
+            transition: all 0.5s;
+      }
+      .container-btn a:hover {
+            background-color: rgb(212, 103, 64);
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="card">
+        <h1>Friends List</h1>
+      </div>
+    </header>
+    <img src="./Image/Codecamp.png" alt="" width="200px" id="img">
+      <article class="article">
+          
+        <table class="Mytable">
+          <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Pisit Rungkaseampong</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Thitiwut Triphon</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>kavisara thisakobsuk</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Tathapong Subin</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Pawan Chuahom</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Supattana Suesawatwanich</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Noramon Thiamtaveesin</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Nattapol Charuthamrong</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Nanthipat Chamali</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Suparak Futemwong</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>สุรศิลป์ ภู่กิตติวรางกูร</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>พรรณกร กรรณิกา</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>Chaiwat Leela</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>Phichayapa Aneksakamorn</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>Pakaporn Sukprasitpreedee</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>Prakasit Mungkerd</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>Krittee Tevamit</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>Thawatchai Onin</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>Natthaphon Muanprab</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>อลงกรณ์ อุทรพันธุ์</td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>Surajchaya Kheawmuan</td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td>Orapin Saechove</td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td>ภวิศ พ่วงจินดา</td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td>Thitiwoot Patcharawannakit</td>
+          </tr>
+          <tr class="active-row">
+            <td>25</td>
+            <td>Puwit Tubtimngam</td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td>เอกรินทร์ ถิ่นอุบล</td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td>Witchayut Sudthanyarat</td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td>Anuruk Noi-am</td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td>อาณัติ น้อยตำแย</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>Wipada Thanawattanawut</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td>Kanokwan Phucharoen</td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td>thanakorn leklersint</td>
+          </tr>
+          <tr>
+            <td>33</td>
+            <td>Panuwit Suktrakul</td>
+          </tr>
+          <tr>
+            <td>34</td>
+            <td>Chanintorn Stisittikum</td>
+          </tr>
+          <tr>
+            <td>35</td>
+            <td>Torsak Soontornphand</td>
+          </tr>
+          <tr>
+            <td>36</td>
+            <td>นัสนันท์ จันทรศุภวงษ์</td>
+          </tr>
+          <tr>
+            <td>37</td>
+            <td>Edueres Mehe</td>
+          </tr>
+          <tr>
+            <td>38</td>
+            <td>Sarankorn Pornpetchlerk</td>
+          </tr>
+          <tr>
+            <td>39</td>
+            <td>ภูริณัฐ เกตุแก้ว</td>
+          </tr>
+          <tr>
+            <td>40</td>
+            <td>Norrarat Kornvittayakoon</td>
+          </tr>
+          <tr>
+            <td>41</td>
+            <td>Worapon Ngamwiriya</td>
+          </tr>
+          <tr>
+            <td>42</td>
+            <td>ประจักร ดิเรกวุฒิกุล</td>
+          </tr>
+          <tr>
+            <td>43</td>
+            <td>ชลลดา แฉล้มวงค์</td>
+          </tr>
+          <tr>
+            <td>44</td>
+            <td>Kittiphop Thaveesub</td>
+          </tr>
+          <tr>
+            <td>45</td>
+            <td>กมลชัย ภาคเดียว</td>
+          </tr>
+          <tr>
+            <td>46</td>
+            <td>ภาสธร จันทนาคม</td>
+          </tr>
+        </tbody>
+        </table>
+        </div>
+        
+      </article>
+    <article class="container-btn">
+            <a href="index.html">
+          Index
+            </a>
+            <a href="profile.html">
+          Profile
+            </a>
+    </article>
+  </body>
+</html>
